@@ -11,7 +11,7 @@ const submitData = async (e) => {
     };
 
     try {
-        const response = await fetch('http://localhost:3000/api/students/', {
+        const response = await fetch('https://bitevote-userregister.onrender.com/api/students/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
